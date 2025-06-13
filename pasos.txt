@@ -1,0 +1,14 @@
+git lfs track "dependencies.rar"
+git lfs track "api-mobileappcheck"
+
+
+git add .gitattributes
+git add dependencies.rar
+git add api-mobileappcheck
+
+
+
+git commit -m "Subir dependencies.rar y ejecutable api-mobileappcheck con Git LFS"
+
+
+git push -u origin main
